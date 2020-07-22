@@ -89,6 +89,10 @@ body {
   padding-bottom: 10px;
 }
 
+.card a {
+  padding: .6em;
+}
+
 .card-bottom {
   line-height: 1rem;
 }
