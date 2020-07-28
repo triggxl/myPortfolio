@@ -1,10 +1,4 @@
 
-add Traversy projects to portfolio?
-• screen shot
-• short description
-• link to GitHub and Active Page
-complete info section
-
-
-Resources:
-https://dev.to/shimphillip/inline-vs-inline-block-vs-block-280h
+default:
+< padding-top #languages, .aboutMe
+10-15px padding around elements in portfolio section + background: #ddd

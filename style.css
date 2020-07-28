@@ -1,4 +1,4 @@
-/* iPhone X design parameters */
+/* iPhone X default parameters */
 :root {
   --primary: #ddd;
   --dark: #333;
@@ -23,6 +23,7 @@ body {
   background: var(--background);
   margin: 30px 50px;
   line-height: 1.4;
+  padding: 5px;
 }
 
 .main-nav {
@@ -59,16 +60,23 @@ body {
 #profile-picture img, #info-picture img{
   width: 100%;
   height: auto;
+  padding: 10px;
+  border-radius: 15px;
 }
 
 #languages{
   font-size: 1.4em;
   text-align: right;
+  padding: 10px;
+  margin: 0px;
  }
 
 .about-me, .portfolio {
   text-align: center;
   font-size: 1.1rem;
+  /* t, r, b, l */
+  padding: 10px 10px 0px 10px;
+  background: var(--primary);
 }
 
 .about-me p {
@@ -131,6 +139,7 @@ body {
   .portfolio {
     max-width: 100%;
     background: var(--primary);
+    margin-top: 20px;
   }
   .card-bottom {
     line-height: 1rem;
@@ -152,6 +161,7 @@ body {
   #profile-picture, #info-picture {
     width: 65%;
     margin: 0 auto;
+    padding: 20px;
   }
   .bio p {
     padding: 0 50px;
