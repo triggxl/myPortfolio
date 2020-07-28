@@ -62,9 +62,8 @@ body {
 }
 
 #languages{
-  font-size: 1.1em;
+  font-size: 1.4em;
   text-align: right;
-  /* border: solid 4px #333; */
  }
 
 .about-me, .portfolio {
@@ -89,12 +88,20 @@ body {
   padding-bottom: 10px;
 }
 
+.card-top, .QuizAppPortfolio {
+  margin-top: 10px;
+  width: 100%;
+}
+
 .card a {
   padding: .6em;
 }
 
 .card-bottom {
   line-height: 1rem;
+  border: solid 2px #333;
+  margin-top: 10px;
+  padding: 0px 10px 20px 20px;
 }
 
 .info, #footer {
@@ -108,15 +115,12 @@ body {
   margin-top: 20px;
 }
 
-@media (min-width: 981px) {
+@media (min-width: 1025px) {
   .main-nav li, .info, .portfolio {
     font-size: 2em;
     font-weight: bold;
   }
   #profile-picture, #info-picture {
-    /* display side to side*/
-    /* display: grid;
-    grid-template-rows: 70%, 30%; */
     width: 65%;
     margin: 0 auto;
   }
@@ -131,29 +135,12 @@ body {
   .card-bottom {
     line-height: 1rem;
   }
+  .language {
+    font-size: 1.1em;
+  }
 }
-
-@media (max-width: 980px) {
-  .main-nav li, .info, .portfolio {
-    font-size: 2em;
-    font-weight: bold;
-  }
-  .portfolio {
-    max-width: 100%;
-    background: var(--primary);
-  }
-  #profile-picture, #info-picture {
-    width: 70%;
-    margin: 0 auto;
-  }
-  .info {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
-}
-
-@media (min-width: 550px) {
+/*format queries */
+@media (min-width: 481px) {
   .main-nav ul {
     grid-template-rows: 1fr;
     grid-template-columns: repeat(4, 1fr);
@@ -161,6 +148,10 @@ body {
   .info {
     font-size: 20px;
     margin-top: 20px;
+  }
+  #profile-picture, #info-picture {
+    width: 65%;
+    margin: 0 auto;
   }
   .bio p {
     padding: 0 50px;
@@ -172,6 +163,9 @@ body {
     gap: 20px;
     margin-top: 10px;
     padding-bottom: 1.3em;
+  }
+  .language {
+    font-size: 1.1em;
   }
 }
 
