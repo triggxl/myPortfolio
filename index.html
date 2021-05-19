@@ -1,162 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css" />
-    <title>Kris' Portfolio</title>
-  </head>
-  <body>
-      <nav  class="main-nav">
-        <ul>
-          <li onclick=location.reload()>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#languages">Languages</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-        <section class="info">
-          <div>
-            <div id="profile-picture">
-              <img src="profilePic.jpg" alt="Profile Picture">
-                <div id="languages">
-                  <i class="fab fa-node"></i>
-                  <i class="fab fa-react"></i>
-                  <i class="fab fa-js language-3"></i>
-                  <i class="fab fa-html5 language-1"></i>
-                  <i class="fab fa-css3 language-2"></i>  
-                </div>
-            <!-- Other Credentials (Pending) -->
-           
-            <i class="fab fa-angular"></i> -->
-            <!-- <i class="fab fa-microsoft"></i> -->
-          </div>
-            <div class="about-me">
-              <h2>Name</h2>
-              <p>
-              Kris Kettendorf
-              </p>
-              <h2>Title</h2>
-              <p>
-                Thinkful Graduate- Full Stack Engineer
-              </p>
-            <div class="bio">
-              <h2>Bio</h2>
-                <p>
-                  My name is Kris Kettendorf. I am a Full Stack Engineer based out of Columbus, Ohio. 
-                  I am eager to work with a team of developers who have a passion for web development and securing user data.
-                  <br>
-                  <br>
-                  I'm looking to develop and pioneer responsible and practical uses for technology. Areas of interests include: Google Translate, GIS navigation, real-time flight tracking, vehicle infotainment, user account/mobile app security, data minimization
-                  <br>
-                  <br>
-                  I pride myself in <strong>resilience</strong>, <strong>self-discipline</strong>, and my <strong>ability to adapt to change</strong>.
-                  I am becoming more involved in my community each day, and aspire to bridge the gap between technology and mental health. Outside of coding my interests include: fitness, health and nutrition, medicine, technology, cards and music.
-                  <br>
-                  <br>
-                  Check out a few of my projects below!
-                </p>
-            </div>
-              <h2 id="contact">Contact</h2>
-                <p>
-                  <i class="fas fa-envelope-open-text"></i>
-                  <a href="mailto:kkettendorf@hotmail.com">Email</a>  
-                </p>
-                <p>
-                  <i class="fab fa-github"></i>
-                  <a href="https://github.com/triggxl" target="_blank">GitHub</a>
-                </p>
-                <p>
-                  <i class="fab fa-linkedin"></i>
-                  <a href="https://www.linkedin.com/in/kriskettendorf/" target="_blank">LinkedIn</a>
-                </p>
-            </div>
-            <div id="info-picture">
-            <img src="black-and-white-blackboard-business-chalkboard-356043.jpg" alt="black and white chalkboard with light bulb drawing" >
-            </div>
-          </div>
-        </section>
-      <section class="portfolio" id="projects">
-        <h2>My Projects</h2>
-        <div class="card">
-          <div class="card-top">
-          </div>
-          <div class="card-bottom">
-            <img class="QuizAppPortfolio" src="QuizAppPortfolio.png" alt="this is a live screenshot of Kris' QuizApp" />
-            <h4>QuizApp</h4>
-            <p>Description:</p>
-            <p>This app is designed to test people's knowledge of random medical terms.
-               I am a life-long learner and knowledge hog. I built this application for those who enjoy 
-               expanding their knowledge across different specialities.</p>
-               <p>Technologies Used:</p><p>HTML, CSS, jQuery</p>
-            <h4>GitHub</h4>
-            <a href="https://github.com/triggxl/QuizApp" target="_blank">Repo</a>
-            <a href="https://triggxl.github.io/QuizApp/" target="_blank" class="btn">Live Page</a>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-compatible" content="ie=edge" />
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Kris' Portfolio</title>
+</head>
+
+<body>
+  <nav class="main-nav">
+    <ul>
+      <li onclick=location.reload()>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#projects">Projects</a>
+      </li>
+      <li>
+        <a href="#languages">Languages</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <section class="info">
+    <div>
+      <div id="profile-picture">
+        <img src="profilePic.jpg" alt="Profile Picture">
+        <div id="languages">
+          <i class="fab fa-git-square"></i>
+          <i class="fab fa-github"></i>
+          <i class="fab fa-html5 language-1"></i>
+          <i class="fab fa-css3 language-2"></i>
+          <i class="fab fa-js language-3"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-node"></i>
+          <span class="iconify" data-icon="logos-knex" data-inline="false"></span>
+          <span class="iconify" data-icon="logos-postgresql" data-inline="false"></span>
         </div>
-        <div class="card">
-          <div class="card-top">
-          </div>
-          <div class="card-bottom">
-            <img class="CapstoneImage" src="CapstoneScreenshot.png" alt="Screenshot of Capstone Project" />
-            <h4>Capstone I</h4>
-            <p>Description:</p>
-            <p>This app was designed to allow the user to search an individual stock and receive information on its performance, 
-              as well as related news stories</p>
-            <p>Technologies Used:</p>
-            <p>HTML, CSS, jQuery, JavaScript</p>
-            <h4>GitHub</h4>
-            <a href="https://github.com/triggxl/firstCapstone" target="_blank">Repo</a>
-            <a href="https://triggxl.github.io/firstCapstone/" target="_blank" class="btn">Live Page</a>
-          </div>
+        <!-- Other Credentials (Pending) -->
+        <!-- express, git, mocha chai supertest knex PostgresSQL, NoSQL -->
+        <!-- <i class="fab fa-angular"></i> -->
+        <!-- <i class="fab fa-microsoft"></i> -->
+      </div>
+      <div class="about-me">
+        <h2>Name</h2>
+        <p>
+          Kris Kettendorf
+        </p>
+        <h2>Title</h2>
+        <p>
+          Junior Developer- Full Stack
+        </p>
+        <div class="bio">
+          <h2>Bio</h2>
+          <p>
+            My name is Kris Kettendorf. I am a Full Stack Developer based out of Columbus, Ohio.
+            I am eager to work with a team of developers who have a passion for web development and securing user data.
+            <br>
+            <br>
+            I'm looking to develop and pioneer responsible and practical uses for technology. Areas of interests
+            include: Google Translate, GIS navigation, real-time flight tracking, vehicle infotainment, user
+            account and mobile app security, data minimization
+            <br>
+            <br>
+            I pride myself in <strong>resilience</strong>, <strong>self-discipline</strong>, and my <strong>ability to
+              adapt to change</strong>.
+            I am becoming more involved in my community each day, and aspire to bridge the gap between technology and
+            mental health. Outside of coding my interests include: fitness, health and nutrition, medicine, technology,
+            playing
+            cards and music.
+            <br>
+            <br>
+          </p>
         </div>
-        <div class="card">
-          <div class="card-bottom">
-            <img class="CSSGridMockup" src="CSSGridMockup.png" alt="Mockup website for a business to use">
-            <h4>CSS Grid Mockup</h4>
-            <p>Description: </p>
-            <p>This side project was built using a responsive Grid CSS layout that uses grid template areas, along with other modern CSS features and techniques like css variables, rem units and flexbox. This mockup website is fit to scale for Desktop, Tablet, and Mobile users. </p>
-            <p>Technologies Used:
-            </p>
-            <p>HTML, CSS</p>
-            <h4>GitHub</h4>
-            <a href="https://github.com/triggxl/responsiveMockup" target="_blank">Repo</a>
-            <a href="https://triggxl.github.io/responsiveMockup/" target="_blank" class="btn">Live Page</a>
+        <div class="contact">
+          <h2 id="contact-header">Contact</h2>
+          <p>
+            <i class="fas fa-envelope-open-text"></i>
+            <a href="mailto:kkettendorf@hotmail.com">Email</a>
+          </p>
+          <p>
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/kriskettendorf/" target="_blank">LinkedIn</a>
+          </p>
+          <p>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/triggxl" target="_blank">GitHub</a>
+          </p>
+          <div id="info-picture">
+            <img src="black-and-white-blackboard-business-chalkboard-356043.jpg"
+              alt="black and white chalkboard with light bulb drawing">
           </div>
+          <strong>Check out a few of my projects below!</strong>
         </div>
-        <div class="card">
-          <div class="card-top">
-          </div>
-          <div class="card-bottom">
-            <img src="https://source.unsplash.com/random/202x200" alt="Placeholder image" />
-            <h4>Project: (Coming Soon!)</h4>
-            <p>Description:</p>
-            <p></p>
-            <p>Technologies Used:</p>
-            <h4>GitHub</h4>
-            <a href="" target="_blank">Repo</a>
-            <a href="" target="_blank" class="btn">Live Page</a>
-          </div>
-        </div>
-      </section>
-    <footer id="footer">Portfolio: Kris Kettendorf &copy; 2020</footer>
-    <!-- Wrapper ends here -->
-    <!-- <div class="grid">
+      </div>
+    </div>
+  </section>
+  <section class="portfolio" id="projects">
+    <h2>My Projects</h2>
+    <div class="card">
+      <div class="card-top">
+      </div>
+      <div class="card-bottom">
+        <img class="CapstoneImage" src="CapstoneScreenshot.png" alt="Screenshot of Capstone Project" />
+        <h4>Capstone I</h4>
+        <p>Description:</p>
+        <p>This app was designed to allow the user to search an individual stock and receive information on its
+          performance,
+          as well as related news stories</p>
+        <p>Technologies Used:</p>
+        <p>HTML, CSS, jQuery, JavaScript</p>
+        <h4>GitHub</h4>
+        <a href="https://github.com/triggxl/firstCapstone" target="_blank">Repo</a>
+        <a href="https://triggxl.github.io/firstCapstone/" target="_blank" class="btn">Live Page</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-top">
+      </div>
+      <div class="card-bottom">
+        <img class="QuizAppPortfolio" src="QuizAppPortfolio.png" alt="this is a live screenshot of Kris' QuizApp" />
+        <h4>QuizApp</h4>
+        <p>Description:</p>
+        <p>This app is designed to test people's knowledge of random medical terms.
+          I am a life-long learner and knowledge hog. I built this application for those who enjoy
+          expanding their knowledge across different specialities.</p>
+        <p>Technologies Used:</p>
+        <p>HTML, CSS, jQuery</p>
+        <h4>GitHub</h4>
+        <a href="https://github.com/triggxl/QuizApp" target="_blank">Repo</a>
+        <a href="https://triggxl.github.io/QuizApp/" target="_blank" class="btn">Live Page</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-bottom">
+        <img class="CSSGridMockup" src="CSSGridMockup.png" alt="Mockup website for a business to use">
+        <h4>CSS Grid Mockup</h4>
+        <p>Description: </p>
+        <p>This side project was built using a responsive Grid CSS layout that uses grid template areas, along with
+          other modern CSS features and techniques like css variables, rem units and flexbox. This mockup website is fit
+          to scale for Desktop, Tablet, and Mobile users. </p>
+        <p>Technologies Used:
+        </p>
+        <p>HTML, CSS</p>
+        <h4>GitHub</h4>
+        <a href="https://github.com/triggxl/responsiveMockup" target="_blank">Repo</a>
+        <a href="https://triggxl.github.io/responsiveMockup/" target="_blank" class="btn">Live Page</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-top">
+      </div>
+      <div class="card-bottom">
+        <img src="https://source.unsplash.com/random/202x200" alt="Placeholder image" />
+        <h4>Next Project: (Coming Soon!)</h4>
+        <p>Description:</p>
+        <p></p>
+        <p>Technologies Used:</p>
+        <h4>GitHub</h4>
+        <a href="" target="_blank">Repo</a>
+        <a href="" target="_blank" class="btn">Live Page</a>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">Portfolio: Kris Kettendorf &copy; 2021</footer>
+  <!-- Wrapper ends here -->
+  <!-- <div class="grid">
 
   </body>
 </html>
-

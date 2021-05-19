@@ -81,7 +81,8 @@ body {
 
 .about-me p {
   text-align: center;
-  padding: 0 30px;
+  padding: 0 50px;
+  margin: auto;
 }
 
 .about-me h2  {
@@ -140,6 +141,10 @@ body {
     font-size: 1.1em;
     margin-bottom: 0;
   }
+  .languages {
+    font-size: 18px;
+    padding-top: 0;
+  }
   /* .portfolio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -170,6 +175,10 @@ body {
     font-size: 20px;
     margin-top: 20px;
   }
+  .about-me {
+    padding-top: -20px;
+    padding-bottom: 40px;
+  }
   #profile-picture, #info-picture {
     width: 65%;
     margin: 0 auto;
@@ -187,7 +196,10 @@ body {
     margin-top: 10px;
     padding-bottom: 1em;
   }
+  .contact > .p {
+    font-size: 20px;
+  }
   .language {
-    font-size: 1.1em;
+    font-size: 0.6em;
   }
 }
