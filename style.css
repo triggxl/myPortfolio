@@ -57,11 +57,17 @@ body {
   box-shadow: var(--shadow);
 }
 
-#profile-picture img, #info-picture img{
+.card img, #profile-picture img, #info-picture img {
   width: 100%;
   height: auto;
   padding: 10px;
   border-radius: 15px;
+}
+
+p {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
 }
 
 #languages{
@@ -145,21 +151,6 @@ body {
     font-size: 18px;
     padding-top: 0;
   }
-  /* .portfolio {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin-top: 10px;
-    padding-bottom: 1.3em;
-  } */
-  /* .card {
-    grid-template-columns: repeat(2, 1fr);
-  } */
-  /* .card-bottom {
-    line-height: 1rem;
-  } */
   .language {
     font-size: 1.1em;
   }
@@ -168,7 +159,6 @@ body {
 @media (min-width: 481px) {
   .main-nav ul {
     grid-template-rows: 1fr;
-    /* repeat(#columns, size) */
     grid-template-columns: repeat(4, 1fr);
   }
   .info {
@@ -190,8 +180,6 @@ body {
   .portfolio {
     display: grid;
     grid-template: repeat(2, 1fr);
-    /* grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr; */
     gap: 20px;
     margin-top: 10px;
     padding-bottom: 1em;
