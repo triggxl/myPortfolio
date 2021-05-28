@@ -1,1 +1,2 @@
 [] turn nav bar links into routes and abstract content to separate pages
+
